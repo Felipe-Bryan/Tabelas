@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabelas</title>
+    <title>Tabelas 2</title>
     <style>
       table,
       tr,
@@ -16,6 +16,12 @@
       }
       td {
         width: 100px;
+      }
+      td:hover {
+        background-color: rgba(52, 221, 243, 0.329);
+      }
+      th:hover {
+        background-color: rgba(52, 221, 243, 0.329);
       }
     </style>
   </head>
@@ -31,16 +37,18 @@
           </td>
         </tr>
         <tr style="text-align: center">
-          <td style="height: 300px">Menu</td>
+          <th style="height: 300px">Menu</th>
           <td>Conteúdo</td>
         </tr>
         <tr>
-          <td
-            colspan="2"
-            style="width: 400px; padding: 20px; text-align: center"
-          >
-            Rodapé
-          </td>
+          <tfoot>
+            <td
+              colspan="2"
+              style="width: 400px; padding: 20px; text-align: center"
+            >
+              Rodapé
+            </td>
+          </tfoot>
         </tr>
       </tbody>
     </table>
